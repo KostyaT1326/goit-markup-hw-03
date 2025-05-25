@@ -16,9 +16,18 @@ body {
     font-size: var(--main-font);
     background-color: var(--main-background-color);
     line-height: var(--main-line-height);
-    max-width: 1440px;
     max-height: auto;
 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
 a {
@@ -33,7 +42,7 @@ a:focus {
 
 ul,
 ol {
-    list-style: none;
+    list-style-type: none;
 }
 
 button {
@@ -41,6 +50,7 @@ button {
 }
 
 .container {
+    display: flex;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
