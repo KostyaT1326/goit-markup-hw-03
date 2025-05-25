@@ -105,7 +105,7 @@ img {
 
 .page_menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     padding-left: 0;    
 }
 
@@ -131,8 +131,8 @@ img {
 
 .contact_list {
     display: flex;
-        column-gap: 40px;
-        padding-left: 0;
+    gap: 40px;
+    padding-left: 0;
 }
 .contact_link {
     font-size: 16px;
@@ -146,16 +146,16 @@ img {
 
 .main-hero {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
-.hero-hero-wrapper {
+/*.hero-hero-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 68px;
     padding-bottom: 68px;
-
-}
+}*/
 
 .main-title {
     max-width: 496px;
@@ -252,7 +252,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 24px;
+    gap: 24px;
     padding-left: 0;
 }
 
@@ -267,6 +267,11 @@ img {
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-list-overlay {
+    padding: 32px 0;
+
 }
 
 .team-list-title {
@@ -307,9 +312,9 @@ img {
     padding:0;
 }
 
-.portfolio-list li:first-child {
+.portfolio-list .project-card:first-child {
     width: calc((100% - 48px) / 3);
-}
+    }
 
 .project-card {
     border: 1px solid #e7e9fc;
@@ -342,10 +347,10 @@ img {
 .footer-page {
     background: #2e2f42;
     padding: 100px 0;
-    padding-left: 156px;
 }
 
 .logo_accent-footer {
+    display: inline-block;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
