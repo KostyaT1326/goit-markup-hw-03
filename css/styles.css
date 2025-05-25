@@ -181,6 +181,7 @@ img {
     text-align: center;
     border: none;
     letter-spacing: 0.04em;
+    min-width: 169px;
 }
 
 .main-button:hover,
@@ -282,6 +283,7 @@ img {
     text-align: center;
     color: var(--main-text-color);
     text-align: center;
+    margin-bottom: 8px
 }
 
 .team-list-text {
@@ -312,13 +314,14 @@ img {
     padding:0;
 }
 
-.portfolio-list .project-card:first-child {
-    width: calc((100% - 48px) / 3);
-    }
-
 .project-card {
     border: 1px solid #e7e9fc;
+    width: calc((100% - 48px) / 3);
 }
+
+.portfolio-list li::first-child {
+    width: calc((100% - 48px) / 3);
+    }
 
 .project-card-overlay {
     padding: 32px 16px;
