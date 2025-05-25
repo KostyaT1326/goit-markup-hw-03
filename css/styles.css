@@ -301,7 +301,10 @@ img {
     text-transform: capitalize;
     color: var(--main-text-color);
     margin-bottom: 72px;
+}
 
+.portfolio-container{
+    flex-direction: column;
 }
 
 .portfolio-list {
