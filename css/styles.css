@@ -328,12 +328,13 @@ img {
     padding:0;
 }
 
-.project-card:first-of-type{
-    width: calc((100% - 48px) / 3);
-}
 .project-card {
     border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
+}
+
+.project-card img {
+    width: 100%;
 }
 
 .project-card-overlay {
