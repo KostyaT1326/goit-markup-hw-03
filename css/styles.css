@@ -74,13 +74,13 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.wrapper {
+/*.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 8px;
     margin-bottom: 8px;
-}
+}*/
 
 .page_nav {
     display: flex;
