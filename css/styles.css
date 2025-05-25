@@ -57,6 +57,8 @@ button {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 section {
@@ -72,6 +74,11 @@ img {
 
 .header-page {
     border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*.wrapper {
@@ -166,6 +173,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .order-service-button {
@@ -246,6 +254,10 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
+}
+
+.team-container {
+    flex-direction: column;
 }
 
 .team-list {
@@ -351,6 +363,10 @@ img {
 .footer-page {
     background: #2e2f42;
     padding: 100px 0;
+}
+
+.footer-container{
+    align-items: flex-start;
 }
 
 a.logo_accent-footer {
