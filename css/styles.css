@@ -33,7 +33,6 @@ p {
 a {
     text-decoration: none;
     color: inherit;
-    display: block;
 }
 
 a:hover,
@@ -309,7 +308,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 24px;
+    /* column-gap: 24px; */
     row-gap: 48px; 
     padding:0;
 }
