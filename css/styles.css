@@ -82,13 +82,13 @@ img {
     margin-bottom: 8px;
 }
 
-.page-nav {
+.page_nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.site-logo {
+.logo_accent {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -103,37 +103,38 @@ img {
     color: #2e2f42;
 }
 
-.page-menu {
+.page_menu {
     display: flex;
     column-gap: 40px;
     padding-left: 0;    
 }
 
-.page-menu-item{
+.page_menu-item{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
 
 }
-.page-menu-link{
+.page_menu-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    padding: 24px 0;
 }
 
 .contact-info{
     font-style: normal;
 }
 
-.cont-mail-list {
+.contact_list {
     display: flex;
         column-gap: 40px;
         padding-left: 0;
 }
-.cont-mail-tel {
+.contact_link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -344,7 +345,7 @@ img {
     padding-left: 156px;
 }
 
-.site-logo-footer {
+.logo_accent-footer {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -355,7 +356,7 @@ img {
     margin-bottom: 16px;
 }
 
-.site-logo-sapn {
+.logo_accent-sapn {
     color: #f4f4fd;
 }
 
