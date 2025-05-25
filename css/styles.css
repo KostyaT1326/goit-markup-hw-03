@@ -319,7 +319,7 @@ img {
     width: calc((100% - 48px) / 3);
 }
 
-.portfolio-list li::first-child {
+.project-card-first {
     width: calc((100% - 48px) / 3);
     }
 
@@ -364,7 +364,7 @@ img {
     margin-bottom: 16px;
 }
 
-.logo_accent-sapn {
+.logo_accent-footer-span {
     color: #f4f4fd;
 }
 
