@@ -389,7 +389,6 @@ img {
 
 .footer-text {
     max-width: 264px;
-    margin-top: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--tertiary-text-color);
