@@ -207,7 +207,7 @@ img {
 .benefits-list {
     display: flex;
     padding-left: 0;
-    margin-right: 24px;    
+    /* margin-right: 24px;     */
 }
 
 .benefits-list li:not(:last-child) {
@@ -215,8 +215,7 @@ img {
 }
 
 .benefit-list-item {
-    width: 264px;
-    height: 104px;
+    width: calc((100% - 72px) / 4);
 }
 
 .benefit-list-title {
