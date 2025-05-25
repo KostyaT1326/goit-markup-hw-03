@@ -369,7 +369,7 @@ img {
     align-items: flex-start;
 }
 
-a.logo_accent-footer {
+.footer-link {
     display: inline-block;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
