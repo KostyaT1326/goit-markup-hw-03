@@ -384,6 +384,7 @@ img {
 
 .logo_accent-footer-span {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 
