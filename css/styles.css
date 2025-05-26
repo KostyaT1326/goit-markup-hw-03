@@ -366,7 +366,7 @@ img {
 }
 
 .footer-container{
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .footer-link {
