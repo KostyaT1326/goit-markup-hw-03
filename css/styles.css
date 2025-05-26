@@ -52,12 +52,9 @@ button {
 }
 
 .container {
-    display: flex;
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
 }
 
 section {
@@ -73,20 +70,14 @@ img {
 
 .header-page {
     border-bottom: 1px solid #e7e9fc;
+
 }
 
-.header-container {
-    flex-direction: row;
-    justify-content: space-between;
-}
 
-/*.wrapper {
+.header-page .container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 8px;
-    margin-bottom: 8px;
-}*/
+}
 
 .page_nav {
     display: flex;
@@ -123,6 +114,7 @@ img {
 
 }
 .page_menu-link{
+    display: inline-block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -132,7 +124,9 @@ img {
 }
 
 .contact-info{
+    
     font-style: normal;
+
 }
 
 .contact_list {
@@ -141,11 +135,12 @@ img {
     padding-left: 0;
 }
 .contact_link {
+    display: inline-block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+    padding: 24px 0;
 }
 
 /* ========HERO SECTION======== */
@@ -172,7 +167,8 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     text-align: center;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
+
 }
 
 .order-service-button {
@@ -370,7 +366,7 @@ img {
 }
 
 .footer-link {
-    
+    display: inline-block;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -379,10 +375,6 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     margin-bottom: 16px;
-}
-
-.footer-inline-block{
-    display: inline-block;
 }
 
 .logo_accent-footer-span {
