@@ -256,9 +256,9 @@ img {
     margin-bottom: 72px;
 }
 
-.team-container {
+/* .team-container { 
     flex-direction: column;
-}
+}*/
 
 .team-list {
     display: flex;
@@ -315,9 +315,9 @@ img {
     margin-bottom: 72px;
 }
 
-.portfolio-container{
+/*.portfolio-container{
     flex-direction: column;
-}
+}*/
 
 .portfolio-list {
     display: flex;
@@ -386,7 +386,6 @@ img {
     color: #f4f4fd;
     display: inline-block;
 }
-
 
 .footer-text {
     max-width: 264px;
